@@ -1,0 +1,6 @@
+.form { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px; }
+  .form h2, .form h3 { margin-top: 0; }
+  .row { display: grid; gap: 6px; margin-bottom: 12px; }
+  label { color: var(--muted); font-size: 14px; }
+  input, textarea, select { width: 100%; padding: 10px 12px; background: rgba(255,255,255,0.06); color: var(--text); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; outline: none; }
+  input:focus, textarea:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(34,211,238,0.25); }
